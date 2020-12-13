@@ -6126,6 +6126,36 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+footer {
+  background-color: #182BCF;
+}
+
+footer .f-d1 {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: lightgray;
+}
+
+footer .f-d1 h3 {
+  margin-top: 0;
+}
+
+footer .f-d1 i {
+  font-size: 25px;
+  padding: 10px;
+}
+
+footer .f-d2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1B204C;
+  text-align: center;
+  height: 50px;
+  color: lightgray;
+}
+
 body {
   margin: 0;
 }
@@ -6252,6 +6282,7 @@ body header .banner img {
   display: flex;
   margin-left: 120px;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .s2 .minicard .ecart {
